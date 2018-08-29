@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+      /*  setContentView(R.layout.activity_main);
         AutoLinkTextView autoLinkTextView = (AutoLinkTextView) findViewById(R.id.active);
 
         //autoLinkTextView.enableUnderLine();
@@ -58,5 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 });
         final AlertDialog alert = builder.create();
         alert.show();
+    }*/
     }
 }
